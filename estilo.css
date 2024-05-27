@@ -1,10 +1,41 @@
-* {
-    font-family: garamond;
-}
+body {
+    min-width: 960px;
 
+
+
+   
+        font: 14px/18px  Arial, Helvetica, sans-serif;
+        color:#826660;
+        position:relative;
+        min-width:960px;
+        padding-top: 27px;
+        background: #5fa022;
+    
+   
+
+
+  }
+
+
+* {font-family: garamond;}
+
+.imghome{
+    position:relative;
+	overflow:hidden;
+    height: 625px;
+	margin: 0 auto;
+}
+.container_12 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+  }
+.logo{display:flex;}
+ 
 a,h2 {
     color: rgb(197, 55, 55);
     text-decoration: none;
+    
 }
 
 nav ul {
@@ -20,6 +51,8 @@ nav ul li {
     text-align: center;
 }
 
+
+
 nav ul li a:hover {
     color: rgb(172, 8, 8);
     font-weight: 700;
@@ -32,3 +65,12 @@ footer {
 	color: rgb(172, 8, 8);
 	text-align: center;
 }
+
+ul li::marker{
+    color: rgb(172, 8, 8) 
+   }
+   
+
+   @media(max-width:700px)
+   {.container{width:100%;
+     flex-direction:column;}}
